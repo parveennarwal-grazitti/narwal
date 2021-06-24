@@ -1,0 +1,26 @@
+{
+    "name": "customhelloworld/magento2-hello-world",
+    "description":"Magento2 Hello World Simple Module",
+    "type": "magento2-module",
+    "version": "2.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+        "name": "Grazitti Interactive",
+        "email": "info@google.com",
+        "homepage": "https://www.grazitti.com/",
+        "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pulsestorm\\HelloWorldMVVM\\": ""
+        }
+    }
+}
